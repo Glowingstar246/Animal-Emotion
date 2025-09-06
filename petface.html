@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Pet Emotion Guesser</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="filenames.js"></script>
+    <script src="script.js"></script>
+</head>
+
+<body onload="showRandomImage()">
+
+    <h1>Guess the emotion</h1>
+    <p>Choose from happy, sad, angry, others.</p>
+    <img id="randomImage" src="">
+    </br>
+    <div class="buttons">
+        <button id="happybtn" onclick="checkanswer('happy')">Happy</button>
+        <button id="sadbtn" onclick="checkanswer('sad')">Sad</button>
+        <button id="angrybtn" onclick="checkanswer('angry')">Angry</button>
+        <button id="othersbtn" onclick="checkanswer('others')">Others</button>
+        </br>
+        <button id="passbtn" onclick="showRandomImage()">Pass</button>
+    </div>
+
+
+</body>
+
+</html>
